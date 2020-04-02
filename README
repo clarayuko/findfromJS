@@ -2,12 +2,13 @@
 ==================
 
 ##此代码用于从某地址的js文件中查找相关url以及子域名信息
-##基于python3 其中获取url的正则匹配来源于LinkFinder
+###基于python3 其中获取url的正则匹配来源于LinkFinder
 
-##命令：python findfromJS.py -u url -i js_file -o url_file -s sub_file
-url:地址信息，例如https://www.baidu.com
-js_file：指定查找的js链接
-url_file：将查找的相关url写入该文件
-sub_file：将查找的子域名信息写入该文件
+###命令：python findfromJS.py -u url -i js_file -o url_file -s sub_file
+####url:地址信息，例如https://www.baidu.com
+####js_file：指定查找的js链接
+####url_file：将查找的相关url写入该文件
+####sub_file：将查找的子域名信息写入该文件
 
-##效果：查找https://www.baidu.com 能查询到30个子域名信息，url条数1k多，其中可能需要过滤，后续有空会进行更改，和其他类型的从js文件查找url与子域名的工具相比起码子域名更详细一点。
+###效果：查找https://www.baidu.com 能查询到30个子域名信息，url条数1k多，其中可能需要过滤，
+###后续有空会进行更改，和其他类型的从js文件查找url与子域名的工具相比起码子域名更详细一点。
